@@ -1,0 +1,42 @@
+#DIV{
+    
+    background-color: #2B2D33;
+    display: grid;
+    align-items: center; 
+ grid-template-columns: 0fr 0fr 2fr 1fr 1fr 1fr 1fr 1fr;
+ column-gap: 0px;
+ 
+}
+h1{
+    color: aqua;
+    
+}
+#OBRAZEK{
+    position: relative;
+    height: 40%;
+    width: 50px;
+    
+}
+#Gra{
+    border: 3px solid ;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 3%;
+}
+.LISTA{
+    color: aqua;
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+    text-decoration-thickness: 4px;
+    text-decoration-style: solid;
+    list-style-type: none;
+}
+table{
+    background-color: aqua;
+}
+#Kolumna2{
+    display: grid;
+    align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr
+ column-gap: 0px;
+}
