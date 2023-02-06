@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#DIV{
+    
+    background-color: #2B2D33;
+    display: grid;
+    align-items: center; 
+ grid-template-columns: 0fr 0fr 2fr 1fr 1fr 1fr 1fr 1fr;
+ column-gap: 0px;
+ 
+}
+h1{
+    color: aqua;
+    
+}
+#OBRAZEK{
+    position: relative;
+    height: 40%;
+    width: 50px;
+    
+}
+#Gra{
+    border: 3px solid ;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 3%;
+}
+.LISTA{
+    color: aqua;
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+    text-decoration-thickness: 4px;
+    text-decoration-style: solid;
+    list-style-type: none;
+}
+table, th,td{
+    
+     border-style: solid;
+     border-collapse: collapse;
+     text-align: center;
+
+}
+#Kolumna2{
+    display: grid;
+    align-items: center; 
+ grid-template-columns: 10fr 1fr 1fr;
+
+}
+#TYTUL{
+    background-color: #2B2D33;
+    
+}
+td{
+    background-color: aqua;
+}
+th{
+    color: aqua;
+}
+#tekstsrodkowy{
+    font-weight: bold;
+}
+#DOL{
+    background-color: #2B2D33;
+}
